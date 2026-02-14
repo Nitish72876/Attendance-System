@@ -1,3 +1,7 @@
+USE THIS LINK TO SEE THE SITE:
+OR FOR YOUR OWN BRANCH DEPLOYMENT USE VERCEL(MUCH EASIER AND WILL WORK)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
