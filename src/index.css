@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(0.15 0.02 250);
+  --color-foreground: oklch(0.9 0.1 180);
+  --color-card: oklch(0.18 0.02 250);
+  --color-card-foreground: oklch(0.9 0.1 180);
+  --color-primary: oklch(0.7 0.2 180);
+  --color-primary-foreground: oklch(0.15 0.02 250);
+  --color-secondary: oklch(0.75 0.25 280);
+  --color-secondary-foreground: oklch(0.15 0.02 250);
+  --color-muted: oklch(0.25 0.02 250);
+  --color-muted-foreground: oklch(0.8 0.1 180);
+  --color-accent: oklch(0.7 0.25 330);
+  --color-accent-foreground: oklch(0.15 0.02 250);
+  --color-border: oklch(0.4 0.15 180);
+  --radius-default: 0.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground font-mono;
+  }
+}
+
+/* Custom cyberpunk effects */
+.cyber-grid {
+  background-image: linear-gradient(rgba(0, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.glow-cyan {
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.glow-magenta {
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+
+
